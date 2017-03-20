@@ -1,0 +1,67 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #337ab7;
+}
+
+.navbar-inverse {
+    background-color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: red;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: rgb(6, 6, 6);
+}
+ .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #337ab7;
+    /*background-color: rgb(51, 122, 183);*/
+}
+
+
+/*For lepTop___________________________________________________________________________________L____*/
+@media(min-width:1200px){
+
+.navbar-inverse {
+    border-color: #080808;
+    height: 132px;
+}
+
+.navbar-nav {
+    float: left;
+    margin: -10px 456px;
+    width: 700px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin: 41px 0px;
+}
+
+}
+
+/*For Tablet __________________________________________________________________________________T___*/
+@media(min-width:768px) and (max-width: 1199px){
+
+.navbar-header {
+     height: 134px;
+}
+
+
+}
+
+/*For Mobile___________________________________________________________________________________M___*/
+@media(max-width:767px){
+
+.navbar-header {
+     height: 134px;
+}
+
+
+}
